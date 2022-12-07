@@ -1,5 +1,11 @@
 @import url('/styles/header.css');
 
+:root {
+    --branco: #fff;
+    --preto: #000;
+}
+
+
 body {
     margin: 0 auto;
     background-color: #CCC;
