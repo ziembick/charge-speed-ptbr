@@ -1,22 +1,28 @@
-@import url('/styles/header.css');
+@import url("/styles/header.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
 
 :root {
-    --branco: #fff;
-    --preto: #000;
+  --branco: #fff;
+  --preto: #000;
 }
 
+html {
+  box-sizing: border-box;
+  word-break: break-all;
+}
 
 body {
-    margin: 0 auto;
-    background-color: #CCC;
-    -webkit-text-size-adjust: none;
+  margin: 0 auto;
+  background-color: #ccc;
+  -webkit-text-size-adjust: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Nova Square", "cursive";
 }
 
 img {
-    border: none;
-    vertical-align: middle;
-    max-width: 100%;
-    transition: 0.3s;
+  border: none;
+  vertical-align: middle;
+  max-width: 100%;
+  transition: 0.3s;
 }
-
-
