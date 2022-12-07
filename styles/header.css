@@ -1,0 +1,49 @@
+.header-logo img {
+    height: 70px;
+}
+
+body, 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.menu a {
+    display: block;
+    padding: 0.3em;
+}
+
+.btn-enter {
+    background: #ccc;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}

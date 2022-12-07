@@ -1,0 +1,16 @@
+@import url('/styles/header.css');
+
+body {
+    margin: 0 auto;
+    background-color: #CCC;
+    -webkit-text-size-adjust: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+
