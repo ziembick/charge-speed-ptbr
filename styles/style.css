@@ -1,10 +1,12 @@
 @import url("/styles/header.css");
+@import url('/styles/main.css');
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
 
 :root {
   --branco: #fff;
   --preto: #000;
+  --cinza: #ccc;
 }
 
 html {
@@ -14,7 +16,7 @@ html {
 
 body {
   margin: 0 auto;
-  background-color: #ccc;
+  background-color: var(--cinza);
   -webkit-text-size-adjust: none;
   font-family: "Inter", sans-serif;
   font-family: "Nova Square", "cursive";
