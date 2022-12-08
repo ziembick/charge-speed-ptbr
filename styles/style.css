@@ -17,7 +17,6 @@ html {
 body {
   margin: 0 auto;
   background-color: var(--cinza);
-  -webkit-text-size-adjust: none;
   font-family: "Inter", sans-serif;
   font-family: "Nova Square", "cursive";
 }
