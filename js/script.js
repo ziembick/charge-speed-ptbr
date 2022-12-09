@@ -1,46 +1,46 @@
 let slide = document.getElementById("slide");
 let images = [
-  "img/body-pic__slide-1.jpg",
-  "img/body-pic__slide-2.jpg",
-  "img/body-pic__slide-3.jpg",
+   "img/body-pic__slide-1.jpg",
+   "img/body-pic__slide-2.jpg",
+   "img/body-pic__slide-3.jpg",
 ];
-let i = 0;
-max = images.length
+ let i = 0;
+ max = images.length
 
 
-function slideShow () {
-  slide.src = images[i];
+ function slideShow () {
+   slide.src = images[i];
 
   if (i < images.length - 1) {
     i++
-  } 
+  }  
 
-  setTimeout(slideShow, 1000)
-}
+   setTimeout(slideShow, 1000)
+ }
 
-slideShow()
+ slideShow()
 
 // let time = 1500,
 //   currentImageIndex = 0,
 //   images = document.querySelectorAll("#slider img");
-//   max = images.length;
+//    max = images.length;
 
-// function nextImage() {
+//  function nextImage() {
 
-//   currentImageIndex++
+//    currentImageIndex++
 
-//   if(currentImageIndex == max) {
-//     currentImageIndex = 0
-//   }
+//    if(currentImageIndex == max) {
+//      currentImageIndex = 0
+//    }
 
 //   images[currentImageIndex].classList.add('selected')
 
-// }
+//  }
 
-// function start() {
-//   setInterval(() => {
-//     nextImage ()
-//   }, time);
-// }
+//  function start() {
+//    setInterval(() => {
+//      nextImage ()
+//    }, time);
+//  }
 
-// window.addEventListener("load", start);
+//  window.addEventListener("load", start);

@@ -1,13 +1,19 @@
-/* #slider {
-    position: relative;
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
 }
 
-#slider img {
-    overflow: hidden;
-    opacity: 0;
-    position: absolute;
+.section-container {
+    padding-top: 100px;
 }
 
-#slider img.selected {
-    opacity: 1;
-} */
+
+
+.section-container h2 {
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 100px;
+}
