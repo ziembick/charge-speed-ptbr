@@ -15,7 +15,7 @@ let images = [
     i++
   }  
 
-   setTimeout(slideShow, 1000)
+   setTimeout(slideShow, 900)
  }
 
  slideShow()
