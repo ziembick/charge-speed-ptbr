@@ -1,12 +1,13 @@
+/* #slider {
+    position: relative;
+}
+
 #slider img {
+    overflow: hidden;
     opacity: 0;
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
 }
 
 #slider img.selected {
     opacity: 1;
-}
-
+} */

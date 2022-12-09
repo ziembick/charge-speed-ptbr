@@ -9,13 +9,8 @@
   --cinza: #ccc;
 }
 
-html {
-  box-sizing: border-box;
-  word-break: break-all;
-}
 
 body {
-  margin: 0 auto;
   background-color: var(--cinza);
   font-family: "Inter", sans-serif;
   font-family: "Nova Square", "cursive";
