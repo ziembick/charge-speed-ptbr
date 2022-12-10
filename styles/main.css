@@ -10,11 +10,19 @@
     padding-top: 100px;
 }
 
-
-
 .section-container h2 {
     font-size: 48px;
     line-height: 1;
     text-align: center;
     margin-bottom: 100px;
+}
+
+.section-container__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15em;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: bold;
 }
