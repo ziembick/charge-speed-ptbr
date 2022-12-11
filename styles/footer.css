@@ -2,6 +2,7 @@
     background-color: var(--preto);
     margin-top: 3em;
     padding-top: 3em;
+    padding-bottom: 3em;
     display: flex;
     justify-content: center;
 }
@@ -10,7 +11,7 @@
     display: flex;
     gap: 5em;
     list-style: none;
-    color: var(--branco);
+    color: var(--footer-color);
 }
 
 .footer-container__logos {
@@ -22,7 +23,16 @@
     height: 30px;
 }
 
-.teste   {
-    color: var(--branco);
+.endereco   {
+    color: var(--footer-color);
+    line-height: 1;
+}
+
+.endereco-container {
+    padding-bottom: 1em;
+}
+
+.endereco-container li {
+    padding-top: 0.5em;
 }
 
