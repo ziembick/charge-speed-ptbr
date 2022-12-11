@@ -3,5 +3,8 @@
 }
 
 .footer-container {
-    
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    list-style: none;
 }
