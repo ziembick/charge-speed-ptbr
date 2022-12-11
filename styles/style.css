@@ -24,3 +24,7 @@ img {
   max-width: 100%;
   transition: 0.3s;
 }
+
+a {
+  text-decoration: none;
+}
