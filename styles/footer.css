@@ -16,3 +16,13 @@
 .footer-container__logos {
     display: flex;
 }
+
+.footer-container__logos img {
+    padding-top: 1em;
+    height: 30px;
+}
+
+.teste   {
+    color: var(--branco);
+}
+
