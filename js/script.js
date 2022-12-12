@@ -1,4 +1,4 @@
-
+const changeClass = document.querySelectorAll(".section-container__categorias-solo")
 
 let slide = document.getElementById("slide");
 let images = [
@@ -21,6 +21,10 @@ let images = [
  }
 
  slideShow()
+
+
+
+
 
 // let time = 1500,
 //   currentImageIndex = 0,
