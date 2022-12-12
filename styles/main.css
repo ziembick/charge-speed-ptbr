@@ -40,7 +40,9 @@
 }
 
 
-.section-container__categorias-objetos{
+.section-container__categorias-objetos, 
+.section-container__categorias-marcas,
+.section-container__categorias-pecas {
     display: grid;
     gap: 4em;
     padding-top: 6em;
@@ -52,7 +54,9 @@
     margin: 0 auto;
 }
 
-.section-container__categorias-objetos a {
+.section-container__categorias-objetos a,
+.section-container__categorias-marcas a,
+.section-container__categorias-pecas a {
     display: flex;
     justify-content: center;
     color: var(--preto);
@@ -61,7 +65,9 @@
     padding-right: 60px;
 }
 
-.section-container__categorias-objetos a:hover {
+.section-container__categorias-objetos a:hover,
+.section-container__categorias-marcas a:hover,
+.section-container__categorias-pecas a:hover {
     background-color: var(--preto);
     color: var(--branco);
 }
