@@ -33,7 +33,7 @@
     display: grid;
     gap: 5em;
     padding-top: 6em;
-    padding-left: 16em;
+    padding-left: 15em;
     grid-template-columns: repeat(3, 0.29fr);
     font-size: 1.3em;
     align-items: center;
@@ -41,8 +41,12 @@
 }
 
 .section-container__categorias-objetos a {
+    display: flex;
+    justify-content: center;
     color: var(--preto);
     padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .section-container__categorias-objetos a:hover {
