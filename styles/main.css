@@ -27,6 +27,11 @@
     font-weight: bold;
 }
 
-.section-container__categorias-objetos {
+
+
+.section-container__categorias-objetos{
     display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
