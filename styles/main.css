@@ -31,7 +31,15 @@
 
 .section-container__categorias-objetos{
     display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    gap: 5em;
+    padding-top: 6em;
+    padding-left: 17em;
+    grid-template-columns: repeat(3, 0.29fr);
+    font-size: 1.3em;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-container__categorias-objetos a {
+    color: var(--preto);
 }
