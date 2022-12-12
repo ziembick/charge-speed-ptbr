@@ -26,6 +26,8 @@
 
 .footer-container__logos {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .footer-container__logos img {
