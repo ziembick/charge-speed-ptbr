@@ -26,3 +26,7 @@
     line-height: 1;
     font-weight: bold;
 }
+
+.section-container__categorias-objetos {
+    display: grid;
+}
