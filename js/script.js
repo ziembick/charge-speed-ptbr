@@ -1,4 +1,16 @@
-const changeClass = document.querySelectorAll(".section-container__categorias-solo")
+const changeClass = document.querySelector(".section-container__categorias-solo");
+const selected = document.querySelectorAll('#selected')
+
+const classesVai = document.querySelector('.section-container__list');
+
+classesVai.addEventListener('click', function() {
+  console.log('olaola')
+})
+
+
+
+
+
 
 let slide = document.getElementById("slide");
 let images = [
@@ -21,7 +33,6 @@ let images = [
  }
 
  slideShow()
-
 
 
 
