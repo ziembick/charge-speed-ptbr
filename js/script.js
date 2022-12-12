@@ -1,3 +1,5 @@
+
+
 let slide = document.getElementById("slide");
 let images = [
    "img/body-pic__slide-1.jpg",

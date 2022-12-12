@@ -28,3 +28,11 @@ img {
 a {
   text-decoration: none;
 }
+
+.hide {
+  display: none;
+}
+
+.selected {
+  display: block;
+}
