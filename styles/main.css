@@ -33,7 +33,7 @@
     display: grid;
     gap: 5em;
     padding-top: 6em;
-    padding-left: 17em;
+    padding-left: 16em;
     grid-template-columns: repeat(3, 0.29fr);
     font-size: 1.3em;
     align-items: center;
@@ -42,4 +42,10 @@
 
 .section-container__categorias-objetos a {
     color: var(--preto);
+    padding: 30px;
+}
+
+.section-container__categorias-objetos a:hover {
+    background-color: var(--preto);
+    color: var(--branco);
 }
