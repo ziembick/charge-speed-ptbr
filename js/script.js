@@ -1,10 +1,13 @@
 const changeClass = document.querySelector(".section-container__categorias-solo");
 const selected = document.querySelectorAll('#selected')
-
 const classesVai = document.querySelector('.section-container__list');
+const classeVem = document.querySelector('.section-container__categorias-solo')
+
+
 
 classesVai.addEventListener('click', function() {
-  console.log('olaola')
+
+  classeVem.classList.add('selected')
 })
 
 
