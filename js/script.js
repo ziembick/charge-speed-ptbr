@@ -1,16 +1,13 @@
-const changeClass = document.querySelector(".section-container__categorias-solo");
 const selected = document.querySelectorAll('#selected')
 const classesVai = document.querySelector('.section-container__list');
-const classeVem = document.querySelector('.section-container__categorias-solo')
+const classeVem = document.querySelector('.section-container__categorias-solo > div')
+
 
 
 
 classesVai.addEventListener('click', function() {
-
   classeVem.classList.add('selected')
 })
-
-
 
 
 
