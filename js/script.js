@@ -1,32 +1,27 @@
-const selected = document.querySelectorAll('#selected')
-const classesVai = document.querySelector('.section-container__list');
-const classeVem = document.querySelector('.section-container__categorias-solo')
-const teste1 = document.querySelector('#tab1')
-const teste2 = document.querySelector('#tab2')
-const teste3 = document.querySelector('#tab3')
-const testando = document.querySelector('.section-container__categorias-solo')
-const testando2 = document.querySelector('.section-container__categorias-solo2')
-const testando3 = document.querySelector('.section-container__categorias-solo3')
+const tab1 = document.querySelector('#tab1')
+const tab2 = document.querySelector('#tab2')
+const tab3 = document.querySelector('#tab3')
+const solo = document.querySelector('.section-container__categorias-solo')
+const solo2 = document.querySelector('.section-container__categorias-solo2')
+const solo3 = document.querySelector('.section-container__categorias-solo3')
 
 
-
-
-teste1.addEventListener('click', function() {
-  testando.classList.add('selected')
-  testando2.classList.remove('selected')
-  testando3.classList.remove('selected')
+tab1.addEventListener('click', function() {
+  solo.classList.add('selected')
+  solo2.classList.remove('selected')
+  solo3.classList.remove('selected')
 })
 
-teste2.addEventListener('click', function (){
-  testando2.classList.add('selected')
-  testando.classList.remove('selected')
-  testando3.classList.remove('selected')
+tab2.addEventListener('click', function (){
+  solo2.classList.add('selected')
+  solo.classList.remove('selected')
+  solo3.classList.remove('selected')
 })
 
-teste3.addEventListener('click', function(){
-  testando3.classList.add('selected')
-  testando2.classList.remove('selected')
-  testando.classList.remove('selected')
+tab3.addEventListener('click', function(){
+  solo3.classList.add('selected')
+  solo2.classList.remove('selected')
+  solo.classList.remove('selected')
 })
 
 
