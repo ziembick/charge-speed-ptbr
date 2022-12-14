@@ -13,10 +13,20 @@ const testando3 = document.querySelector('.section-container__categorias-solo3')
 
 teste1.addEventListener('click', function() {
   testando.classList.add('selected')
+  testando2.classList.remove('selected')
+  testando3.classList.remove('selected')
 })
 
 teste2.addEventListener('click', function (){
   testando2.classList.add('selected')
+  testando.classList.remove('selected')
+  testando3.classList.remove('selected')
+})
+
+teste3.addEventListener('click', function(){
+  testando3.classList.add('selected')
+  testando2.classList.remove('selected')
+  testando.classList.remove('selected')
 })
 
 
