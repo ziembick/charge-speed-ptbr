@@ -1,5 +1,5 @@
-@import url("/styles/header.css");
-@import url('/styles/main.css');
+@import url("./header.css");
+@import url('./main.css');
 @import url('./footer.css');
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
