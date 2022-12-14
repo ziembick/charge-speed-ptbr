@@ -1,13 +1,25 @@
 const selected = document.querySelectorAll('#selected')
 const classesVai = document.querySelector('.section-container__list');
-const classeVem = document.querySelector('.section-container__categorias-solo > div')
+const classeVem = document.querySelector('.section-container__categorias-solo')
+const teste1 = document.querySelector('#tab1')
+const teste2 = document.querySelector('#tab2')
+const teste3 = document.querySelector('#tab3')
+const testando = document.querySelector('.section-container__categorias-solo')
+const testando2 = document.querySelector('.section-container__categorias-solo2')
+const testando3 = document.querySelector('.section-container__categorias-solo3')
 
 
 
 
-classesVai.addEventListener('click', function() {
-  classeVem.classList.add('selected')
+teste1.addEventListener('click', function() {
+  testando.classList.add('selected')
 })
+
+teste2.addEventListener('click', function (){
+  testando2.classList.add('selected')
+})
+
+
 
 
 
