@@ -1,3 +1,7 @@
+.modal-pecas__dialog {
+    padding: 100px;
+}
+
 .modal-pecas__dialog-div p {
     display: flex;
     justify-content: center;
@@ -6,7 +10,7 @@
 .modal-pecas__dialog-div ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
+    gap: 4em;
     box-sizing: border-box;
     padding: 30px;
 }
@@ -14,7 +18,7 @@
 .modal-pecas__dialog-div ul a {
     text-decoration: none;
     color: var(--preto);
-    padding: 10px;
+    font-size: 20px;
 }
 
 .modal-pecas__dialog-div ul a:hover {
