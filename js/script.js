@@ -1,3 +1,4 @@
+//seleções de tabs
 const tab1 = document.querySelector('#tab1')
 const tab2 = document.querySelector('#tab2')
 const tab3 = document.querySelector('#tab3')
@@ -24,10 +25,7 @@ tab3.addEventListener('click', function(){
   solo.classList.remove('selected')
 })
 
-
-
-
-
+//slides de imagens
 
 let slide = document.getElementById("slide");
 let images = [
@@ -50,6 +48,34 @@ let images = [
  }
 
  slideShow()
+
+
+//login-btn
+const createProductButton = document.querySelector("#create-product");
+const dialog = document.querySelector(".create-product_dialog");
+
+const openModal = () => dialog.showModal();
+
+createProductButton.addEventListener("click", openModal);
+
+cancelButton.addEventListener("click", () => dialog.close());
+const inputs = document.querySelectorAll("input");
+
+const saveButton = document.querySelector("#save");
+
+function logar () {
+    const login = document.getElementById('login').value;
+    const senha = document.getElementById('senha').value;
+    const form = document.querySelector('form');
+    form.reset();
+
+    if(login == 'admin' && senha == 'admin'){
+        alert('Login efetuado com sucesso!');
+        createProductButton.textContent = "Sair"
+    }else {
+        alert('Usuário ou senha inválidas')
+    }
+}
 
 
 
