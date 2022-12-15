@@ -1,45 +1,43 @@
 .modal-pecas__dialog {
-    padding: 20px;
-    padding-top: 50px;
+  padding: 20px;
+  padding-top: 50px;
 }
 
 .modal-pecas__dialog-div p {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 30px;
-    font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+  font-size: 1.5em;
 }
 
 .modal-pecas__dialog-div ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5em;
-    box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+  box-sizing: border-box;
 }
 
 .modal-pecas__dialog-div ul li a {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-
 .modal-pecas__dialog-div ul a {
-    text-decoration: none;
-    color: var(--branco);
-    background-color: var(--preto);
-    font-size: 1em;
-
+  text-decoration: none;
+  color: var(--branco);
+  background-color: var(--preto);
+  font-size: 1em;
 }
 
 .modal-pecas__dialog-div ul a:hover {
-    text-decoration: none;
-    color: var(--preto);
-    background-color: var(--branco);
-    border: 1px solid black;
+  text-decoration: none;
+  color: var(--preto);
+  background-color: var(--branco);
+  border: 1px solid black;
 }
