@@ -1,0 +1,24 @@
+.modal-pecas__dialog-div p {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-pecas__dialog-div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.modal-pecas__dialog-div ul a {
+    text-decoration: none;
+    color: var(--preto);
+    padding: 10px;
+}
+
+.modal-pecas__dialog-div ul a:hover {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--preto);
+}
