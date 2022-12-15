@@ -81,6 +81,15 @@ const abrirModal = () => dialog2.showModal()
 
 createPecasAero.addEventListener('click', abrirModal)
 
+//exaustores modal
+
+const createExaustao = document.querySelector('#exaustores')
+const dialog3 = document.querySelector('#dialog-exaus')
+
+const abrirModal2 = () => dialog3.showModal();
+
+createExaustao.addEventListener('click',abrirModal2)
+
 
 
 
