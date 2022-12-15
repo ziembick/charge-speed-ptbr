@@ -90,6 +90,14 @@ const abrirModal2 = () => dialog3.showModal();
 
 createExaustao.addEventListener('click',abrirModal2)
 
+//outros modal
+const createOutros = document.querySelector('#outros')
+const dialog4 = document.querySelector('#dialog-outros')
+
+const abrirModal3 = () => dialog4.showModal()
+
+createOutros.addEventListener('click', abrirModal3)
+
 
 
 
