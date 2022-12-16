@@ -1,0 +1,45 @@
+@import url("./header.css");
+@import url('./footer.css');
+@import url('./login-btn.css');
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
+
+:root {
+  --branco: #fff;
+  --preto: #000;
+  --cinza: #ccc;
+  --footer-color: #999;
+}
+
+
+html, 
+body {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: var(--branco);
+  font-family: "Inter", sans-serif;
+  font-family: "Nova Square", "cursive";
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+  max-width: 100%;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+
+.selected{
+  display: block;
+}
