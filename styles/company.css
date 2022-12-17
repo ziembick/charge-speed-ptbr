@@ -46,7 +46,7 @@ a {
 
 .company  {
     background-image: url(../img/background-company.jpg);
-    height: 400px;
+    height: 350px;
   
 
 }
@@ -66,7 +66,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 350px;
     font-size: 5em;
     color: var(--branco);
     background: rgba(0, 0, 0, 0.7)
