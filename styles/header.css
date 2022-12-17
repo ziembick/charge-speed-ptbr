@@ -27,7 +27,7 @@ li {
   width: 100%;
   z-index: 100;
   transition: 0.3s;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .header li a {
