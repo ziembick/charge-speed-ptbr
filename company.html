@@ -45,25 +45,25 @@
     <main>
       <section class="company" id="title">
         <h1 class="company-title">COMPANY</h1>
-        <ul>
+        <!-- <ul>
           <li>
             <a href=""></a>
           </li>
           <li>
             <a href=""></a>
           </li>
-        </ul>
+        </ul> -->
       </section>
       <section>
         <div class="about-recruit-div">
           <ul class="about-recruit">
-            <li>SOBRE</li>
-            <li>RECRUTAR</li>
+            <li id="sobre">SOBRE</li>
+            <li id="recrutar">RECRUTAR</li>
           </ul>
         </div>
         <div class="tabMenu">
-          <div class="tabMenu-about" style="display: none">
-            <table class="tabMenu-about__table">
+          <div class="tabMenu-about" >
+            <table class="tabMenu-about__table hide selected">
               <tbody class="tabMenu-about__table-body">
                 <tr class="border">
                   <th>Empresa</th>
@@ -92,7 +92,7 @@
               </tbody>
             </table>
           </div>
-          <div class="recrutar-text">
+          <!-- <div class="recrutar-text">
             <p>
               Advance Staff Co., Ltd. está à procura de pessoas que possam
               trabalhar conosco para aumentar ainda mais a velocidade de
@@ -100,9 +100,9 @@
               <br>
               e transformá-lo em uma marca global.
             </p>
-          </div>
+          </div> -->
           <div class="tabMenu-about_recrutar">
-            <table class="tabMenu-about__table">
+            <table class="tabMenu-recrutar__table hide">
               <tbody class="tabMenu-about__table-body">
                 <tr class="border">
                   <th>Vagas</th>
@@ -252,5 +252,6 @@
     </footer>
 
     <p class="copyright">© ADVANCE STAFF CO. LTD</p>
+    <script src="./js/script-company.js"></script>
   </body>
 </html>

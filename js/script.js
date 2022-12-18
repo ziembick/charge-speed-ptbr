@@ -74,51 +74,48 @@ function logar() {
 }
 
 //peças modal
-const createPecasAero = document.querySelector('#pecas-aerodinamicas')
-const dialog2 = document.querySelector('.modal-pecas__dialog')
+const createPecasAero = document.querySelector("#pecas-aerodinamicas");
+const dialog2 = document.querySelector(".modal-pecas__dialog");
 
-const abrirModal = () => dialog2.showModal()
+const abrirModal = () => dialog2.showModal();
 
-createPecasAero.addEventListener('click', abrirModal)
+createPecasAero.addEventListener("click", abrirModal);
 
 //exaustores modal
 
-const createExaustao = document.querySelector('#exaustores')
-const dialog3 = document.querySelector('#dialog-exaus')
+const createExaustao = document.querySelector("#exaustores");
+const dialog3 = document.querySelector("#dialog-exaus");
 
 const abrirModal2 = () => dialog3.showModal();
 
-createExaustao.addEventListener('click',abrirModal2)
+createExaustao.addEventListener("click", abrirModal2);
 
 //outros modal
-const createOutros = document.querySelector('#outros')
-const dialog4 = document.querySelector('#dialog-outros')
+const createOutros = document.querySelector("#outros");
+const dialog4 = document.querySelector("#dialog-outros");
 
-const abrirModal3 = () => dialog4.showModal()
+const abrirModal3 = () => dialog4.showModal();
 
-createOutros.addEventListener('click', abrirModal3)
-
-
+createOutros.addEventListener("click", abrirModal3);
 
 //btn top
-const btn = document.getElementById('btnTop')
+const btn = document.getElementById("btnTop");
 
-btn.addEventListener('click', function(){
-  window.scrollTo(0,0)
-})
+btn.addEventListener("click", function () {
+  window.scrollTo(0, 0);
+});
 
-document.addEventListener('scroll', ocultar)
+document.addEventListener("scroll", ocultar);
 
-
-function ocultar () {
-  if(window.scrollY > 10){
-    btn.style.display = "flex"
+function ocultar() {
+  if (window.scrollY > 10) {
+    btn.style.display = "flex";
   } else {
-    btn.style.display = "none"
+    btn.style.display = "none";
   }
 }
 
-ocultar()
+ocultar();
 
 
 // let time = 1500,
