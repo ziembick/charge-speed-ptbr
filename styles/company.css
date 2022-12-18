@@ -114,9 +114,12 @@ td {
   justify-content: center;
 }
 
-.texto {
+.recrutar-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 580px;
+  letter-spacing: 0.8px;
+  padding-bottom: 10px;
+  line-height: 1.5;
 }
+
