@@ -71,6 +71,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 40px 0;
 }
 
 .about-recruit {
