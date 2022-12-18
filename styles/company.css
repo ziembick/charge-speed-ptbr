@@ -1,6 +1,6 @@
 @import url("./header.css");
-@import url('./footer.css');
-@import url('./login-btn.css');
+@import url("./footer.css");
+@import url("./login-btn.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
 
@@ -11,12 +11,10 @@
   --footer-color: #999;
 }
 
-
-html, 
+html,
 body {
   scroll-behavior: smooth;
 }
-
 
 body {
   background-color: var(--branco);
@@ -39,35 +37,43 @@ a {
   display: none;
 }
 
-
-.selected{
+.selected {
   display: block;
 }
 
-.company  {
-    background-image: url(../img/background-company.jpg);
-    height: 350px;
-  
-
+.company {
+  background-image: url(../img/background-company.jpg);
+  height: 350px;
 }
 
 #title {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 section {
-    display: block;
+  display: block;
 }
 
 .company-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-    font-size: 5em;
-    color: var(--branco);
-    background: rgba(0, 0, 0, 0.7)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  font-size: 5em;
+  color: var(--branco);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.about-recruit-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-recruit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
