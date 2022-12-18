@@ -69,11 +69,17 @@ section {
 
 .about-recruit-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .about-recruit {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.about-recruit li {
+  font-size: 22px;
+  line-height: 1;
+  padding: 40px 7em;
 }
