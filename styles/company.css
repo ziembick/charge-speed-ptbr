@@ -108,3 +108,15 @@ td {
   justify-content: center;
   
 }
+
+.tabMenu-about_recrutar {
+  display: flex;
+  justify-content: center;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 580px;
+}
