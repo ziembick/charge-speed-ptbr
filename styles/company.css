@@ -82,7 +82,13 @@ section {
 .about-recruit li {
   font-size: 22px;
   line-height: 1;
-  padding: 40px 7em;
+  margin: 40px 3em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.about-recruit li:hover {
+  color: rgb(119, 119, 119)
 }
 
 .border {
@@ -123,6 +129,8 @@ td {
   line-height: 1.5;
 }
 
-.about-recruit li {
-  cursor: pointer;
+
+
+table {
+  padding-bottom: 2.5em;
 }
