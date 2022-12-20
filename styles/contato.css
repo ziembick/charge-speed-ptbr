@@ -40,3 +40,38 @@ a {
 .selected{
   display: block;
 }
+
+.arrow {
+  border: solid var(--branco);
+  border-width: 0 7px 7px 0;
+  padding: 5px;
+  display: inline-block;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+.company {
+  background-image: url(../img/contato-pic.jpg);
+  height: 350px;
+}
+
+#title {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.company-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  font-size: 5em;
+  color: var(--branco);
+  background: rgba(0, 0, 0, 0.7);
+}

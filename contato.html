@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/company.css" />
+    <link rel="stylesheet" href="./styles/contato.css" />
     <link rel="shortcut icon" href="/img/touch-icon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap"
       rel="stylesheet"
     />
-    <title>Charge Speed - Company</title>
+    <title>Charge Speed - Contato</title>
   </head>
   <body>
     <header class="header">
@@ -25,13 +25,13 @@
       <nav class="navigation">
         <ul class="menu">
           <li>
-            <a href="#">PRODUTOS</a>
+            <a href="./index.html">PRODUTOS</a>
           </li>
           <li>
-            <a href="#">COMPANY</a>
+            <a href="./company.html">COMPANY</a>
           </li>
           <li>
-            <a href="#">CONTATO</a>
+            <a href="./contato.html">CONTATO</a>
           </li>
           <li>
             <a href="#">ONLINE SHOP</a>
@@ -42,6 +42,16 @@
         </ul>
       </nav>
     </header>
+    <section class="create-product">
+        <dialog class="create-product_dialog">
+          <form method="dialog" class="create-product_form">
+            <h3 class="login_title">Login</h3>
+            <input type="text" placeholder="Login" id="login" />
+            <input type="password" placeholder="Senha" id="senha" />
+            <input type="submit" onclick="logar()" />
+          </form>
+        </dialog>
+      </section>
     <main>
       <section class="company" id="title">
         <h1 class="company-title">COMPANY</h1>
@@ -54,154 +64,7 @@
           </li>
         </ul> -->
       </section>
-      <section>
-        <div class="about-recruit-div">
-          <ul class="about-recruit">
-            <li id="sobre">SOBRE</li>
-            <li id="recrutar">RECRUTAR</li>
-          </ul>
-        </div>
-        <div class="tabMenu">
-          <div class="tabMenu-about" >
-            <table class="tabMenu-about__table hide selected">
-              <tbody class="tabMenu-about__table-body">
-                <tr class="border">
-                  <th>Empresa</th>
-                  <td><small>ADVANCE STAFF CO.,LTD</small></td>
-                </tr>
-                <tr>
-                  <th>Empreendedorismo</th>
-                  <td><small> Julho de 1986</small></td>
-                </tr>
-                <tr>
-                  <th>Preparar</th>
-                  <td>Setembro de 1989</td>
-                </tr>
-                <tr>
-                  <th>Capital</th>
-                  <td>10.000.000 ienes</td>
-                </tr>
-                <tr>
-                  <th>Representante</th>
-                  <td>Diretor Representante: Hiromitsu Harada</td>
-                </tr>
-                <tr>
-                  <th>Localização</th>
-                  <td>Yokoe, Ibaraki-shi, Osaka 567-0865 TEL:072-697-9750</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="recrutar-text">
-            <p class="recrutar-text-p hide">
-              Advance Staff Co., Ltd. está à procura de pessoas que possam
-              trabalhar conosco para aumentar ainda mais a velocidade de
-              carregamento
-              <br>
-              e transformá-lo em uma marca global.
-            </p>
-          </div>
-          <div class="tabMenu-about_recrutar">
-            <table class="tabMenu-recrutar__table hide">
-              <tbody class="tabMenu-about__table-body">
-                <tr class="border">
-                  <th>Vagas</th>
-                  <td>
-                    (1) Desenvolvimento de produtos Se você é um amante de
-                    carros que está sempre buscando um novo estilo, por que
-                    <br />
-                    não criar um carro com um design original?
-                    <br />
-                    Modeladores e mecânicos experientes com experiência na
-                    indústria recebem tratamento preferencial.
-                    <br />
-                    <br />
-                    (2) Trabalho de escritório de vendas Se você gosta
-                    <br />
-                    de carros, interage com pessoas e conversa, e expõe em
-                    eventos, acho que vai gostar de trabalhar. Além disso, se
-                    <br />
-                    você pode falar inglês, você pode trabalhar em todo o mundo,
-                    como trabalho de escritório comercial e viagens de
-                    <br />
-                    negócios ao exterior.
-                  </td>
-                </tr>
-                <tr>
-                  <th>Local de trabalho</th>
-                  <td>
-                    <small>
-                      Cidade de Ibaraki, Prefeitura de Osaka (Sede)</small
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <th>Horário de trabalho</th>
-                  <td>9:30~18:30 (sede e centro de pedidos)</td>
-                </tr>
-                <tr>
-                  <th>Concessão</th>
-                  <td>
-                    Em consideração à experiência e habilidade, o tratamento
-                    preferencial será dado de acordo com nossos regulamentos.
-                  </td>
-                </tr>
-                <tr>
-                  <th>Seguros, etc.</th>
-                  <td>Seguro social completo e pensão de previdência</td>
-                </tr>
-                <tr>
-                  <th>Subsídios</th>
-                  <td>
-                    Pagamento de horas extras, despesas de deslocamento, etc.
-                  </td>
-                </tr>
-                <tr>
-                  <th>Aumento salarial</th>
-                  <td>1 ano atrás</td>
-                </tr>
-                <tr>
-                  <th>Bônus</th>
-                  <td>2 vezes por ano</td>
-                </tr>
-                <tr>
-                  <th>Feriado</th>
-                  <td>
-                    Dois dias de folga por semana, feriados nacionais, feriados
-                    de fim de ano e Ano Novo, férias de verão.
-                  </td>
-                </tr>
-                <tr>
-                  <th>Como se candidatar</th>
-                  <td>
-                    Por favor, verifique as diretrizes de inscrição e envie seu
-                    currículo para a sede.
-                    <br />
-                    Após a triagem dos documentos, informaremos sobre o
-                    cronograma da entrevista.
-                    <br />
-                    Se você tiver alguma dúvida, sinta-se à vontade para nos
-                    ligar.
-                  </td>
-                </tr>
-                <tr>
-                  <th>Contato</th>
-                  <td>
-                    Sede
-                    <br />
-                    1-1-4
-                    <br />
-                    Yokoe, Ibaraki-shi, Osaka 567-0865 TEL:072-697-9750
-                    (Contato: Matsuda)
-                    <br />
-                    E-mail:info@chargespeed.com
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
+      
       <div id="btnTop">
         <i class="arrow up"></i>
       </div>
@@ -251,6 +114,6 @@
     </footer>
 
     <p class="copyright">© ADVANCE STAFF CO. LTD</p>
-    <script src="./js/script-company.js"></script>
+    <script src="./js/script-contato.js"></script>
   </body>
 </html>
