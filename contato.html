@@ -43,15 +43,15 @@
       </nav>
     </header>
     <section class="create-product">
-        <dialog class="create-product_dialog">
-          <form method="dialog" class="create-product_form">
-            <h3 class="login_title">Login</h3>
-            <input type="text" placeholder="Login" id="login" />
-            <input type="password" placeholder="Senha" id="senha" />
-            <input type="submit" onclick="logar()" />
-          </form>
-        </dialog>
-      </section>
+      <dialog class="create-product_dialog">
+        <form method="dialog" class="create-product_form">
+          <h3 class="login_title">Login</h3>
+          <input type="text" placeholder="Login" id="login" />
+          <input type="password" placeholder="Senha" id="senha" />
+          <input type="submit" onclick="logar()" />
+        </form>
+      </dialog>
+    </section>
     <main>
       <section class="company" id="title">
         <h1 class="company-title">CONTATO</h1>
@@ -64,7 +64,30 @@
           </li>
         </ul> -->
       </section>
-      
+      <section>
+        <div>
+          <p>
+            Se você tiver alguma dúvida sobre nossos produtos, não hesite em
+            contactar-nos usando o formulário abaixo.
+          </p>
+          <form action="mail.php">
+            <table>
+              <tbody>
+                <tr>
+                  <th>
+                    <p>Seu Nome</p>
+                  </th>
+                  <td>
+                    <input type="text" />
+                    <span>Exemplo: Taro Yamada</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+      </section>
+
       <div id="btnTop">
         <i class="arrow up"></i>
       </div>
