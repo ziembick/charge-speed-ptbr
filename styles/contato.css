@@ -20,6 +20,7 @@ body {
   background-color: var(--branco);
   font-family: "Inter", sans-serif;
   font-family: "Nova Square", "cursive";
+  margin: 0 auto;
 }
 
 img {
@@ -74,4 +75,25 @@ a {
   font-size: 5em;
   color: var(--branco);
   background: rgba(0, 0, 0, 0.7);
+}
+
+.main-section__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  padding-left: 10px;
 }
