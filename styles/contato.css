@@ -78,10 +78,19 @@ a {
 }
 
 .main-section__div {
+  position: relative;
+  bottom: 70px;
+}
+
+
+.main-section__div-p {
+  position: relative;
+  top: 150px; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .main-section__form {
   width: 100%;
@@ -117,8 +126,6 @@ form table th {
 
 form table th p{
   display: flex;
-  letter-spacing: 0.5px;
-  padding-left: 5px;
+  letter-spacing: 1px;
+  padding-left: 10px;
 }
-
-
