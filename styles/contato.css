@@ -94,13 +94,15 @@ td {
   align-items: center;
 }
 
-.main-section__form span {
-  padding-left: 10px;
-}
-
 tr {
   border-bottom: 1px solid rgb(185, 182, 182);
   border-top: 1px solid rgb(185, 182, 182);
+}
+
+.main-section__form td span {
+  padding-right: 100px;
+  padding-left: 10px;
+  opacity: 0.5;
 }
 
 form input {
@@ -111,9 +113,12 @@ form input {
 
 form table th {
   width: 250px;
-  vertical-align: top;
 }
 
-table th {
-  padding: 15px;
+form table th p{
+  display: flex;
+  letter-spacing: 0.5px;
+  padding-left: 5px;
 }
+
+
