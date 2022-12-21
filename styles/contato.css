@@ -94,6 +94,26 @@ td {
   align-items: center;
 }
 
-span {
+.main-section__form span {
   padding-left: 10px;
+}
+
+tr {
+  border-bottom: 1px solid rgb(185, 182, 182);
+  border-top: 1px solid rgb(185, 182, 182);
+}
+
+form input {
+  width: 500px;
+  border: 0.5px solid rgb(185, 182, 182);
+  box-shadow: none;
+}
+
+form table th {
+  width: 250px;
+  vertical-align: top;
+}
+
+table th {
+  padding: 15px;
 }
