@@ -129,3 +129,13 @@ form table th p{
   letter-spacing: 1px;
   padding-left: 10px;
 }
+
+
+
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90em;
+  height: 10em;
+}
