@@ -100,7 +100,8 @@ a {
 
 td {
   /* display: flex;
-  align-items: center; */
+  align-items: center;
+  justify-content: flex-end; */
 }
 
 tr {
@@ -109,10 +110,9 @@ tr {
 }
 
 .main-section__form td span {
-  /* padding-right: 100px;
-  padding-left: 10px; */
   opacity: 0.5;
 }
+
 
 form input {
   width: 500px;
