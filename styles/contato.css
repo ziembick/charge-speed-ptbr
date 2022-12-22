@@ -124,7 +124,7 @@ form table th p{
 
 
 textarea {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   width: 90em;
   height: 10em;
@@ -138,6 +138,8 @@ textarea {
 .tdCLass p {
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 .tipo-de-consulta {
