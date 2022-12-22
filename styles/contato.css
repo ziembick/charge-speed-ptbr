@@ -162,10 +162,12 @@ textarea {
   right: 80px;
 }
 
-.inputClass {
+.inputClass p input {
   position: relative;
   bottom: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--branco);
+  background-color: var(--preto);
 }
