@@ -173,7 +173,9 @@ textarea {
 }
 
 .privacy {
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: flex-end;
+  position: relative;
+  bottom: 80px;
+  border: 1px double var(--preto);
+  margin: 0 200px;
+  line-height: 2;
 }
