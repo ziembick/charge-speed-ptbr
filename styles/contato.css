@@ -125,8 +125,6 @@ form table th p{
 }
 
 
-
-
 textarea {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -150,7 +148,12 @@ textarea {
   display: flex;
 }
 
-/* .form input[type="radio"] {
-  display: flex;
-  flex-direction: row;
-} */
+.main-section__div form td input {
+  position: relative;
+  right: 80px;
+}
+
+.main-section__div form td span {
+  position: relative;
+  right: 80px;
+}
