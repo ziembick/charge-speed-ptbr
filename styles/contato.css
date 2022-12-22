@@ -85,10 +85,12 @@ a {
 
 .main-section__div-p {
   position: relative;
-  top: 150px; 
+  top: 160px; 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 90px;
   align-items: center;
+  letter-spacing: 2px;
 }
 
 
@@ -114,10 +116,6 @@ form input {
   box-shadow: none;
 }
 
-/* form table th {
-  width: 250px;
-} */
-
 form table th p{
   display: flex;
   letter-spacing: 1px;
@@ -137,6 +135,10 @@ textarea {
   flex-direction: column;
 }
 
+.tdCLass p {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .tipo-de-consulta {
   position: relative;
