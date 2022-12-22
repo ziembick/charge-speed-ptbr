@@ -114,9 +114,9 @@ form input {
   box-shadow: none;
 }
 
-form table th {
+/* form table th {
   width: 250px;
-}
+} */
 
 form table th p{
   display: flex;
