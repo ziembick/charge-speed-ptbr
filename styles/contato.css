@@ -99,8 +99,8 @@ a {
 }
 
 td {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 tr {
@@ -109,8 +109,8 @@ tr {
 }
 
 .main-section__form td span {
-  padding-right: 100px;
-  padding-left: 10px;
+  /* padding-right: 100px;
+  padding-left: 10px; */
   opacity: 0.5;
 }
 
@@ -138,4 +138,15 @@ textarea {
   margin-bottom: 10px;
   width: 90em;
   height: 10em;
+}
+
+.tdCLass {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tipo-de-consulta {
+  position: relative;
+  bottom: 33px;
 }
