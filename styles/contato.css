@@ -98,12 +98,6 @@ a {
   justify-content: center;
 }
 
-td {
-  /* display: flex;
-  align-items: center;
-  justify-content: flex-end; */
-}
-
 tr {
   border-bottom: 1px solid rgb(185, 182, 182);
   border-top: 1px solid rgb(185, 182, 182);
