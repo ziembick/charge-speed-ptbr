@@ -175,7 +175,13 @@ textarea {
 .privacy {
   position: relative;
   bottom: 80px;
-  border: 1px double var(--preto);
+  border: 3px double var(--preto);
   margin: 0 200px;
   line-height: 2;
+}
+
+.privacy strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
