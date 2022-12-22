@@ -171,3 +171,9 @@ textarea {
   color: var(--branco);
   background-color: var(--preto);
 }
+
+.privacy {
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
