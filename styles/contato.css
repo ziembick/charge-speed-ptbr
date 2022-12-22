@@ -150,3 +150,13 @@ textarea {
   position: relative;
   bottom: 33px;
 }
+
+
+.div-input-radio {
+  display: flex;
+}
+
+/* .form input[type="radio"] {
+  display: flex;
+  flex-direction: row;
+} */

@@ -73,7 +73,6 @@
           </p>
           <form action="mail.php" class="main-section__form">
             <table>
-              
               <tbody>
                 <tr>
                   <th>
@@ -84,29 +83,16 @@
                     <span>Exemplo: Taro Yamada</span>
                   </td>
                 </tr>
+
                 <tr>
-                  <th>
-                    <p>Fonético</p>
-                  </th>
-                  <td>
-                    <input type="text" />
-                    <span>Exemplo: Taro Yamada</span>
-                  </td>
-                </tr>
-                <!-- <tr>
                   <th>
                     <p>Endereço</p>
                   </th>
                   <td>
-                    <input type="text">
+                    <input type="text" />
                     <span>Endereço: Rua dos Pássador, 1923</span>
-                    <select name="" id="">
-                      <option value="">Opção 1</option>
-                      <option value="">Opção 2</option>
-                    </select>
-                    <input type="text">
                   </td>
-                </tr> -->
+                </tr>
                 <tr>
                   <th>
                     <p>Número de telefone</p>
@@ -139,15 +125,15 @@
                     <p class="tipo-de-consulta">Tipo de Consulta</p>
                   </th>
                   <td>
-                    <label for="">
-                    <input type="radio" />Consultas sobre produtos
-                    </label>
-                    <label for="">
-                      <input type="radio">Vendas Comerciais
-                    </label>
-                    <label for="">
-                      <input type="radio"> Outros
-                    </label>
+                    <div class="div-input-radio">
+                      <label for="">
+                        <input type="radio" />Consultas sobre produtos
+                      </label>
+                      <label for="">
+                        <input type="radio" />Vendas Comerciais
+                      </label>
+                      <label for=""> <input type="radio" /> Outros </label>
+                    </div>
                   </td>
                 </tr>
                 <tr>
@@ -155,10 +141,11 @@
                     <p>Inquery</p>
                   </th>
                   <td class="tdCLass">
-                    <textarea>
-                      
-                    </textarea>
-                    <p>Por favor, preencha suas perguntas com o máximo de detalhes possível, incluindo o nome e modelo do veículo.</p>
+                    <textarea> </textarea>
+                    <p>
+                      Por favor, preencha suas perguntas com o máximo de
+                      detalhes possível, incluindo o nome e modelo do veículo.
+                    </p>
                   </td>
                 </tr>
               </tbody>
