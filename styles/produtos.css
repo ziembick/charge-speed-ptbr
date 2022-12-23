@@ -89,3 +89,21 @@ a {
   color: var(--branco);
   background: rgba(0, 0, 0, 0.7);
 }
+
+
+.nova-chegada__div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.nova-chegada__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
