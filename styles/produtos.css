@@ -1,0 +1,91 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./login-btn.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap");
+
+:root {
+  --branco: #fff;
+  --preto: #000;
+  --cinza: #ccc;
+  --footer-color: #999;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--branco);
+  font-family: "Inter", sans-serif;
+  font-family: "Nova Square", "cursive";
+  margin: 0 auto;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+  max-width: 100%;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.selected {
+  display: block;
+}
+
+.arrow {
+  border: solid var(--branco);
+  border-width: 0 7px 7px 0;
+  padding: 5px;
+  display: inline-block;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+#btnTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--preto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+  cursor: pointer;
+}
+
+.company {
+  background-image: url(../img/title_products.jpg);
+  height: 350px;
+}
+
+#title {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.company-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  font-size: 5em;
+  color: var(--branco);
+  background: rgba(0, 0, 0, 0.7);
+}

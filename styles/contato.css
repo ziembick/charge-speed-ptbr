@@ -38,7 +38,7 @@ a {
   display: none;
 }
 
-.selected{
+.selected {
   display: block;
 }
 
@@ -54,19 +54,18 @@ a {
   -webkit-transform: rotate(-135deg);
 }
 
-
 #btnTop {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: var(--preto);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--branco);
-    cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--preto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+  cursor: pointer;
 }
 
 .company {
@@ -96,17 +95,15 @@ a {
   bottom: 70px;
 }
 
-
 .main-section__div-p {
   position: relative;
-  top: 160px; 
+  top: 160px;
   display: flex;
   justify-content: flex-start;
   padding-left: 100px;
   align-items: center;
   letter-spacing: 2px;
 }
-
 
 .main-section__form {
   width: 100%;
@@ -123,19 +120,17 @@ tr {
   opacity: 0.5;
 }
 
-
 .main-section__form input {
   width: 500px;
   border: 0.5px solid rgb(185, 182, 182);
   box-shadow: none;
 }
 
-form table th p{
+form table th p {
   display: flex;
   letter-spacing: 1px;
   padding-left: 10px;
 }
-
 
 textarea {
   margin-top: 20px;
@@ -162,7 +157,6 @@ textarea {
   position: relative;
   bottom: 33px;
 }
-
 
 .div-input-radio {
   display: flex;
@@ -206,7 +200,6 @@ textarea {
   padding: 30px;
   line-height: 2;
 }
-
 
 .privacy strong {
   display: flex;
