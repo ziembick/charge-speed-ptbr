@@ -134,3 +134,17 @@ a {
   background-color: var(--preto);
   font-size: 20px;
 }
+
+
+.categorias__ul {
+  display: grid;
+  gap: 4em;
+  justify-content: center;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 4em;
+  grid-template-columns: repeat(3, 0.2fr);
+  font-size: 1.3em;
+  align-items: center;
+  margin: 0 auto;
+}
