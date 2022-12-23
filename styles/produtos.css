@@ -90,7 +90,8 @@ a {
   background: rgba(0, 0, 0, 0.7);
 }
 
-.nova-chegada__section {
+.nova-chegada__section,
+.categorias__section {
   padding-top: 40px;
   padding-bottom: 70px;
 }
@@ -101,7 +102,8 @@ a {
   align-items: center;
 }
 
-.nova-chegada__div h3 {
+.nova-chegada__div h3,
+.categorias__div h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +119,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 50px;
-  width: 650px;
+  width: 600px;
 }
 
 .nova-chegada__div ul li a {
