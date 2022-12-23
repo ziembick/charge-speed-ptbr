@@ -91,19 +91,15 @@ a {
 }
 
 .nova-chegada__section {
-  margin-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
-
-
 
 .nova-chegada__div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-
-
 
 .nova-chegada__div h3 {
   display: flex;
@@ -117,12 +113,12 @@ a {
 
 .nova-chegada__ul {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  width: 650px;
 }
-
 
 .nova-chegada__div ul li a {
   color: var(--preto);
@@ -134,5 +130,5 @@ a {
 .nova-chegada__div ul li a:hover {
   color: var(--branco);
   background-color: var(--preto);
-  font-size: 20px; 
+  font-size: 20px;
 }
