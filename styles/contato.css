@@ -170,6 +170,7 @@ textarea {
   justify-content: center;
   color: var(--branco);
   background-color: var(--preto);
+  cursor: pointer;
 }
 
 .privacy {
