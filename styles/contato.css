@@ -150,6 +150,12 @@ textarea {
 
 .div-input-radio {
   display: flex;
+  padding-bottom: 10px;
+}
+
+.div-input-radio__text {
+  position: relative;
+  left: 0;
 }
 
 .main-section__div form td input {
@@ -164,7 +170,7 @@ textarea {
 
 .inputClass p input {
   position: relative;
-  bottom: 170px;
+  bottom: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,10 +182,15 @@ textarea {
 .privacy {
   position: relative;
   bottom: 80px;
-  border: 3px double var(--preto);
+  border: 3px double rgba(0, 0, 0, 0.3);
   margin: 0 200px;
+}
+
+.privacy p {
+  padding: 30px;
   line-height: 2;
 }
+
 
 .privacy strong {
   display: flex;
