@@ -56,17 +56,17 @@ a {
 
 
 #btnTop {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 50px;
-  height: 50px;
-  background-color: var(--preto);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--branco);
-  cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    cursor: pointer;
 }
 
 .company {
@@ -124,7 +124,7 @@ tr {
 }
 
 
-form input {
+.main-section__form input {
   width: 500px;
   border: 0.5px solid rgb(185, 182, 182);
   box-shadow: none;
