@@ -126,6 +126,7 @@ form table th p{
 textarea {
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 60px;
   width: 90em;
   height: 10em;
 }
@@ -138,6 +139,7 @@ textarea {
 .tdCLass p {
   display: flex;
   justify-content: flex-start;
+  padding-left: 60px;
   padding-bottom: 20px;
   letter-spacing: 1px;
 }
