@@ -55,6 +55,20 @@ a {
 }
 
 
+#btnTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--preto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+  cursor: pointer;
+}
+
 .company {
   background-image: url(../img/contato-pic.jpg);
   height: 350px;
@@ -88,7 +102,7 @@ a {
   top: 160px; 
   display: flex;
   justify-content: flex-start;
-  padding-left: 90px;
+  padding-left: 100px;
   align-items: center;
   letter-spacing: 2px;
 }
