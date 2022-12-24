@@ -112,7 +112,6 @@ a {
   padding-bottom: 90px;
 }
 
-
 .categorias__div h3 {
   display: flex;
   justify-content: center;
@@ -172,7 +171,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .categorias__div ul a {
@@ -188,15 +186,11 @@ a {
   background-color: var(--preto);
 }
 
-
 .marcas__ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
-
 
 .marcas__ul {
   display: grid;
@@ -209,3 +203,18 @@ a {
   align-items: center;
   margin: 0 auto;
 }
+
+
+.marcas__div ul li {
+  color: var(--preto);
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid var(--preto);
+}
+
+.marcas__div ul li:hover {
+  color: var(--branco);
+  background-color: var(--preto);
+  font-size: 20px;
+}
+
