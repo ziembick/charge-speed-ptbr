@@ -123,6 +123,16 @@ a {
   padding-bottom: 20px;
 }
 
+.marcas__div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .nova-chegada__ul {
   display: flex;
   justify-content: space-between;
@@ -176,4 +186,17 @@ a {
 .categorias__div ul li a:hover {
   color: var(--branco);
   background-color: var(--preto);
+}
+
+
+.marcas__ul {
+  display: grid;
+  gap: 4em;
+  justify-content: center;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  grid-template-columns: repeat(3, 0.2fr);
+  font-size: 1.3em;
+  align-items: center;
+  margin: 0 auto;
 }
