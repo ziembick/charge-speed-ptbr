@@ -189,6 +189,15 @@ a {
 }
 
 
+.marcas__ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
 .marcas__ul {
   display: grid;
   gap: 4em;
