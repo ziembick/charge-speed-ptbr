@@ -16,6 +16,8 @@
     <title>Charge Speed - Company</title>
   </head>
   <body>
+    <div id="preloader"></div>
+
     <header class="header">
       <div class="header-logo">
         <a href="./index.html">
@@ -262,5 +264,12 @@
 
     <p class="copyright">© ADVANCE STAFF CO. LTD</p>
     <script src="./js/script-company.js"></script>
+    <script>
+      var loader = document.getElementById('preloader');
+
+      window.addEventListener('load', function(){
+        loader.style.display = "none"
+      })
+    </script>
   </body>
 </html>
