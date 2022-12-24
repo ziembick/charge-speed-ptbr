@@ -102,7 +102,17 @@ a {
   align-items: center;
 }
 
-.nova-chegada__div h3,
+.nova-chegada__div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+
 .categorias__div h3 {
   display: flex;
   justify-content: center;
@@ -119,6 +129,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 60px;
   width: 600px;
 }
 
